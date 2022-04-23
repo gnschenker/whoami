@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "whoami", "whoami.csproj", "{087CA0B5-2EBE-4056-9B3C-D2DC467518ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD76A5A2-2DB6-4015-9776-D14FAC90F38E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		whoami-deployment.yaml = whoami-deployment.yaml
+		.dockerignore = .dockerignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{087CA0B5-2EBE-4056-9B3C-D2DC467518ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087CA0B5-2EBE-4056-9B3C-D2DC467518ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087CA0B5-2EBE-4056-9B3C-D2DC467518ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087CA0B5-2EBE-4056-9B3C-D2DC467518ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6037283-E44C-489D-AC44-C1AC295C845B}
+	EndGlobalSection
+EndGlobal
